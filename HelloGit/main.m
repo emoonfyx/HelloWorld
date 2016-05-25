@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+int min(int a,int b);
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        printf("%d",min(2, 4));
     }
     return 0;
+}
+int min(int a,int b){
+    return  a>b? a:b;
 }
